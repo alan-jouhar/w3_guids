@@ -1,0 +1,29 @@
+.iconbar {
+    display: flex;
+    background-color: #555;
+    width: 80%;
+    margin: auto;
+}
+
+.iconbarVertical{
+    flex-direction: column;
+    width:90px;
+}
+
+.iconbarLink {
+    display: block;
+    min-width: 20%;
+    padding: 12px 0;
+}
+.iconbarLink:hover{
+    background-color: black;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+.iconbarIcon {
+    color: white;
+    font-size: 36px;
+}
