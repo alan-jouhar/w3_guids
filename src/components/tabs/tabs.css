@@ -1,0 +1,49 @@
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabs__header {
+    overflow: auto;
+}
+
+.tabs__button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tabs__button:hover {
+    background-color: #ddd;
+}
+
+.tabs__button.current {
+    background-color: #ccc;
+}
+.tabs__item {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: left;
+    background-color: #f9f9f9;
+    animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.current{
+    display: block;
+}
