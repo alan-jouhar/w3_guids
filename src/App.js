@@ -5,15 +5,17 @@ import './App.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHome, faSearch, faEnvelope, faGlobeAmericas, faTrash } from '@fortawesome/free-solid-svg-icons'
 import Accordion from './components/accordion/accordion'
+import Tabs from './components/tabs/tabs'
 library.add(faHome, faSearch, faEnvelope, faGlobeAmericas, faTrash)
 
 function App() {
 
   return (
     <div className="container App">
-      <IconBar/>
-      <MenuIcon animated/>
+      <IconBar />
+      <MenuIcon animated />
       <Accordion />
+      <Tabs />
     </div>
   )
 }
