@@ -2,10 +2,12 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    display: flex;
 }
 
 .tabs__header {
     overflow: auto;
+    width: 19%;
 }
 
 .tabs__button {
@@ -16,6 +18,8 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    display: block;
+    width: 100%;
 }
 
 .tabs__button:hover {
@@ -25,6 +29,11 @@
 .tabs__button.current {
     background-color: #ccc;
 }
+
+.tabs__content {
+    width: 100%;
+}
+
 .tabs__item {
     display: none;
     padding: 6px 12px;
@@ -44,6 +53,6 @@
     }
 }
 
-.current{
+.current {
     display: block;
 }
