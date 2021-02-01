@@ -5,11 +5,9 @@ function TabHeader(props) {
     function activateCard(id) {
         let cards = document.getElementsByClassName("tab-header__card");
         Array.prototype.forEach.call(cards, e => {
-            console.log(id, e.id)
             if (e.id === id) {
                 e.style.display = "block";
                 e.style.backgroundColor = e.getAttribute("data-bg")
-                console.log("inside the if statement")
             }
             else {
                 e.style.display = "none"
