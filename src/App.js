@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHome, faSearch, faEnvelope, faGlobeAmericas, faTrash } from '@fortawesome/free-solid-svg-icons'
 import Accordion from './components/accordion/accordion'
 import Tabs from './components/tabs/tabs'
+import HoverTab from './components/hover_tab/hover_tab'
 library.add(faHome, faSearch, faEnvelope, faGlobeAmericas, faTrash)
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Accordion />
       <Tabs />
       <TabHeader items={items} />
+      <HoverTab></HoverTab>
     </div>
   )
 }

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.hover-tab{
+    display: flex;
+}
+
+.hover-tab__menu{
+    width: 20%;
+}
+
+.hover-tab__button{
+    display: block;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.hover-tab__button:hover{
+    background-color: rgb(221, 221, 221);
+}
+.hover-tab__content{
+    padding: 20px;
+}
+.hover-tab__art {
+    display: none;
+}
+
+.hover-tab__art-show{
+    display: block;
+}
